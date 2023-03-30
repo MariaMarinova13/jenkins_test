@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                cd test_app
+                cd myapp
                 pip install fire
                 '''
             }
